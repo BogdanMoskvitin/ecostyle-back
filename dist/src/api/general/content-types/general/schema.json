@@ -1,0 +1,34 @@
+{
+    "kind": "singleType",
+    "collectionName": "generals",
+    "info": {
+        "singularName": "general",
+        "pluralName": "generals",
+        "displayName": "general"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "about_text": {
+            "type": "string"
+        },
+        "about_img": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        }
+    }
+}
